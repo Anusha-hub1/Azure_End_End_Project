@@ -1,0 +1,264 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "VB10-ADF-ETL-DEV"
+		},
+		"DS_AzureSQLDB_password": {
+			"value": ""
+		},
+		"DS_BULK_PARQT_accountKey": {
+			"value": ""
+		},
+		"DS_Parquet_Snowflake_Raw_accountKey": {
+			"value": ""
+		},
+		"DS_RESTAPI_RAW_password": {
+			"value": ""
+		},
+		"DS_RESTAPI_SRC_accountKey": {
+			"value": ""
+		},
+		"DS_SFTP_SRC_accountKey": {
+			"value": ""
+		},
+		"DS_SNOWFLAKE_PRAQT_accountKey": {
+			"value": ""
+		},
+		"DS_SNOWFLAKE_SRC_password": {
+			"value": ""
+		},
+		"DS_SQLOnPrem_password": {
+			"value": ""
+		},
+		"DS_SQL_OnPrem_PARQT_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_OnPrem_raw_password": {
+			"value": ""
+		},
+		"DS_SRC_PARQT_accountKey": {
+			"value": ""
+		},
+		"DS_SWITCH_CSV_AzureSQL_password": {
+			"value": ""
+		},
+		"LS_AZRESQL_password": {
+			"value": ""
+		},
+		"LS_AZRESQL_EXCEL_password": {
+			"value": ""
+		},
+		"LS_Azure_SQL_password": {
+			"value": ""
+		},
+		"LS_BLOB_SNOWFLAKE_connectionString": {
+			"value": ""
+		},
+		"LS_BULK_RAW_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_RAW_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_PARQT_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_RAW_accountKey": {
+			"value": ""
+		},
+		"LS_JSON_PARQT_accountKey": {
+			"value": ""
+		},
+		"LS_JSON_RAW_accountKey": {
+			"value": ""
+		},
+		"LS_Parquet_Snowflake_connectionString": {
+			"value": ""
+		},
+		"LS_SFTP_PARQT_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_RAW_accountKey": {
+			"value": ""
+		},
+		"LS_SNOWFLAKE_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_SNOWFLAKE_SNK_password": {
+			"value": ""
+		},
+		"LS_SQL_OnPrem_SRC_password": {
+			"value": ""
+		},
+		"LS_SQL_RAW_ONPREM_password": {
+			"value": ""
+		},
+		"LS_SRC_SQLONPREM_PARQT_accountKey": {
+			"value": ""
+		},
+		"lS_SQLOnPrem_password": {
+			"value": ""
+		},
+		"DS_AzureSQLDB_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev1009.database.windows.net"
+		},
+		"DS_AzureSQLDB_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"DS_AzureSQLDB_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"DS_BULK_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_Parquet_Snowflake_Raw_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_RESTAPI_RAW_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/kKMrbo/data"
+		},
+		"DS_RESTAPI_RAW_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"DS_RESTAPI_SRC_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_SFTP_SRC_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"DS_SNOWFLAKE_PRAQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_SNOWFLAKE_SRC_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"DS_SQLOnPrem_properties_typeProperties_server": {
+			"value": "DESKTOP-CU76O3C\\SQLEXPRESS"
+		},
+		"DS_SQLOnPrem_properties_typeProperties_database": {
+			"value": "VBPROJECT"
+		},
+		"DS_SQLOnPrem_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"DS_SQL_OnPrem_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_SQL_OnPrem_raw_properties_typeProperties_server": {
+			"value": "DESKTOP-CU76O3C\\SQLEXPRESS"
+		},
+		"DS_SQL_OnPrem_raw_properties_typeProperties_database": {
+			"value": "VBPROJECT"
+		},
+		"DS_SQL_OnPrem_raw_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"DS_SRC_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"DS_SWITCH_CSV_AzureSQL_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev1009.database.windows.net"
+		},
+		"DS_SWITCH_CSV_AzureSQL_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"DS_SWITCH_CSV_AzureSQL_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_AZRESQL_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev1009.database.windows.net"
+		},
+		"LS_AZRESQL_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AZRESQL_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_AZRESQL_EXCEL_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev1009.database.windows.net"
+		},
+		"LS_AZRESQL_EXCEL_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AZRESQL_EXCEL_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_Azure_SQL_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev1009.database.windows.net"
+		},
+		"LS_Azure_SQL_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_Azure_SQL_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_BULK_RAW_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"LS_CSV_RAW_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_RAW_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"LS_JSON_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"LS_JSON_RAW_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"LS_SFTP_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"LS_SFTP_RAW_properties_typeProperties_url": {
+			"value": "https://adlsdevvbraw010.dfs.core.windows.net/"
+		},
+		"LS_SNOWFLAKE_RAW_sasUri": {
+			"value": ""
+		},
+		"LS_SNOWFLAKE_SNK_properties_typeProperties_database": {
+			"value": "USER$ANUSHA"
+		},
+		"LS_SQL_OnPrem_SRC_properties_typeProperties_server": {
+			"value": "DESKTOP-CU76O3C\\SQLEXPRESS"
+		},
+		"LS_SQL_OnPrem_SRC_properties_typeProperties_database": {
+			"value": "VBPROJECT"
+		},
+		"LS_SQL_OnPrem_SRC_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_SQL_RAW_ONPREM_properties_typeProperties_server": {
+			"value": "DESKTOP-CU76O3C\\SQLEXPRESS"
+		},
+		"LS_SQL_RAW_ONPREM_properties_typeProperties_database": {
+			"value": "VBPROJECT"
+		},
+		"LS_SQL_RAW_ONPREM_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"LS_SRC_SQLONPREM_PARQT_properties_typeProperties_url": {
+			"value": "https://frtadlsolistsrc009.dfs.core.windows.net/"
+		},
+		"lS_SQLOnPrem_properties_typeProperties_server": {
+			"value": "DESKTOP-CU76O3C\\SQLEXPRESS"
+		},
+		"lS_SQLOnPrem_properties_typeProperties_database": {
+			"value": "VBPROJECT"
+		},
+		"lS_SQLOnPrem_properties_typeProperties_userName": {
+			"value": "Anusha"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
