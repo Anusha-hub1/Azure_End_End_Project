@@ -1,0 +1,21 @@
+{
+	"name": "lS_SQLOnPrem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-CU76O3C\\SQLEXPRESS",
+			"database": "VBPROJECT",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Anusha",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI3MjhhYjJkNy1iNzc0LTQyZmEtYTExZS1lNzIyMGU3MzkxZTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "Self-HostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

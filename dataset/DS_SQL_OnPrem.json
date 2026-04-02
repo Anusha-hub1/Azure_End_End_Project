@@ -1,0 +1,25 @@
+{
+	"name": "DS_SQL_OnPrem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_RAW_ONPREM",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": {
+				"value": "@dataset().tablename",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

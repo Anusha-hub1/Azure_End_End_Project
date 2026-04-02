@@ -1,0 +1,24 @@
+{
+	"name": "DS_EXCEL_RAW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EXCEL_RAW",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": {
+				"value": "4f126dc83d716ab444ccf66ccad64cc",
+				"type": "Expression"
+			},
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "excel",
+				"fileSystem": "input"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

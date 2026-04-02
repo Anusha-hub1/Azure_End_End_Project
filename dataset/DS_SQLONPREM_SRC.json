@@ -1,0 +1,58 @@
+{
+	"name": "DS_SQLONPREM_SRC",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SRC_SQLONPREM_PARQT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(\n   'sql/',\n    formatDateTime(utcNow(),'yyyy'),'/',      \n    formatDateTime(utcNow(),'MM'),'/',\n    formatDateTime(utcNow(),'dd'))\n",
+					"type": "Expression"
+				},
+				"folderPath": "sql",
+				"fileSystem": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "\"order_id\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"customer_id\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_status\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_purchase_timestamp\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_approved_at\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_delivered_carrier_date\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_delivered_customer_date\"",
+				"type": "UTF8"
+			},
+			{
+				"name": "\"order_estimated_delivery_date\"",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

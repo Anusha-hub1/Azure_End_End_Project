@@ -1,0 +1,27 @@
+{
+	"name": "DS_Parquet_Snowflake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Parquet_Snowflake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": {
+					"value": "snowflake",
+					"type": "Expression"
+				},
+				"container": {
+					"value": "snowflake",
+					"type": "Expression"
+				}
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

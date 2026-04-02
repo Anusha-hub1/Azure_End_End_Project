@@ -1,0 +1,13 @@
+{
+	"name": "DS_AZRESQL_EXCEL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AZRESQL_EXCEL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

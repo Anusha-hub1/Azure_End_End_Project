@@ -1,0 +1,13 @@
+{
+	"name": "DS_SWITCH_CSV_AzureSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_SWITCH_CSV_AzureSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

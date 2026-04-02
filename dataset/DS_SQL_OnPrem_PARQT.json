@@ -1,0 +1,21 @@
+{
+	"name": "DS_SQL_OnPrem_PARQT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DS_SQL_OnPrem_PARQT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sql",
+				"fileSystem": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
